@@ -32,7 +32,7 @@ public class Main {
     }
 
     static void battle(Player one, Player two) {
-        if ( (Type.attackSuccess(one.getAttack(), two.getDefence()))
+        if ( (Type.attackSuccess(one.getAttack(), two.getDefence()))   /////// działanie metody
           && (!Type.attackSuccess(two.getAttack(), one.getDefence())) ) {
             System.out.println("Player1 attack succeeded and Player2 attack failed");
             one.addPoint();
