@@ -8,7 +8,7 @@ public class Player {
 
 
     Player() {
-        score = 0;
+        score = 0;  //czy to nie to samo co przypusanie wartosci w deklaracji powyżej?
     }
 
     void randomAttack() {
